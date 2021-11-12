@@ -1,6 +1,9 @@
 # Horizan
  Website designed by Horizan Team
 
+
+
+---
 # Code run Website
 
 <p align="center">
@@ -21,6 +24,3 @@ npm install -g npm@latest
 npm run dev
 ```
 
-
-
----
