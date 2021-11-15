@@ -14,7 +14,7 @@
 
 # Code run Website
 ---
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Getting Started <a name = "getting_started">Terminal</a>
 
 ### Install library
 library express
