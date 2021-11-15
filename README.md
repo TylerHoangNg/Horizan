@@ -17,9 +17,8 @@
 ## 🏁 Getting Started <a name = "getting_started">Terminal</a>
 
 ### Install library
-library express
 ```
-npm install express
+npm install
 ```
 ```
 npm install -g npm@latest
