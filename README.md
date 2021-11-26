@@ -38,3 +38,8 @@ npm install node-sass --save-dev
 npm install morgan --save-dev
 var morgan = require('morgan')
 ```
+
+### Run code
+``` npm start ```
+### Run nodemon
+``` npm run watch ```
