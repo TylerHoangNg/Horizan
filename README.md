@@ -15,16 +15,26 @@
 # Code run Website
 ---
 ## 🏁 Getting Started <a name = "getting_started">Terminal</a>
-
-### Install library
+### Create Project
 ```
-npm install
+npm init
 ```
+### install library basic
 ```
-npm install -g npm@latest
+npm install express
+npm install -g nodemon (globally)
+npm install --save-dev nodemon(dev) or npm install nodemon --save-dev
+npm install express-handlebars
+npm install node-sass --save-dev
 ```
-### Run Website
+# Edit package.json
 ```
-npm run dev
+"script":{
+	"start":"nodemon --inspect ./index.js",
+}
 ```
-
+### API morgan
+```
+npm install morgan --save-dev
+var morgan = require('morgan')
+```
