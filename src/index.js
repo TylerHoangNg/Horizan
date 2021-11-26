@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 const route = require('./routes')
 
-app.use(morgan('combined'))
+//app.use(morgan('combined'))
 
 app.use(express.static(path.join(__dirname, '/public')))
 
