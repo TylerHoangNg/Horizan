@@ -27,7 +27,7 @@ npm install --save-dev nodemon(dev) or npm install nodemon --save-dev
 npm install express-handlebars
 npm install node-sass --save-dev
 ```
-# Edit package.json
+##### Edit package.json
 ```
 "script":{
 	"start":"nodemon --inspect ./index.js",
