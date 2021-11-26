@@ -1,0 +1,378 @@
+.error404 #site-content {
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
+
+.error404 #site-content .error404-content {
+    text-align: center
+}
+
+.error404 #site-content .search-form {
+    width: 500px;
+    margin: 3rem auto;
+    max-width: 100%
+}
+
+.error404 #site-content input.search-field {
+    font-size: 16px;
+    border: solid 1px #f4f7ff;
+    box-shadow: 0 7px 20px -5px rgba(0, 0, 0, .1);
+    padding-left: 20px
+}
+
+.error404 section.block-contact {
+    display: none
+}
+
+.error404 #site-content {
+    padding-bottom: 20px;
+    background: #f5f5f5
+}
+
+.error404 .container {
+    max-width: 100%;
+    width: 100%
+}
+
+.wpcf7-form .wpcf7-submit {
+    cursor: pointer
+}
+
+div.wpcf7 .ajax-loader {
+    background-image: url(content/uploads/2020/11/ajax-loader.gif)
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    border: 2px solid #00ddff
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+    background-color: #fff;
+    color: #00ddff
+}
+
+p.developer-copyrights a:hover {
+    color: var(--main-color)
+}
+
+p.developer-copyrights span {
+    font-size: 20px
+}
+
+p.developer-copyrights a {
+    font-weight: 400;
+    color: #00ddff;
+    display: inline-flex
+}
+
+p.developer-copyrights a span {
+    margin-right: 5px
+}
+
+p.developer-copyrights a:hover {
+    color: #000
+}
+
+.single-post .post-inner,
+.single-post .section-inner {
+    max-width: 100% !important
+}
+
+.sidebar-right .widget ul {
+    list-style: none !important
+}
+
+.single-post .entry-content .sidebar-right img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important
+}
+
+.sidebar-right .tag-list {
+    padding-left: 20px
+}
+
+.wp-block-image figcaption {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px
+}
+
+.single-post a,
+.single-post div#content h3 {
+    color: #00ddff
+}
+
+ul.list {
+    margin-left: 25px
+}
+
+ul.list li:before {
+    content: "";
+    background: #1c72af;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    left: 17px;
+    border-radius: 50px
+}
+
+a.btnlink {
+    display: block;
+    text-align: center;
+    color: var(--main-color);
+    margin-top: 40px
+}
+
+.hero a.wp-btn {
+    line-height: 44px !important;
+    padding: 0 30px !important;
+    border-radius: 5px !important;
+    background: #00ddff;
+    color: #fff !important;
+    border: 1px solid #00ddff !important;
+    display: inline-block !important
+}
+
+.hero a.wp-btn:hover {
+    background: #fff !important;
+    color: #00ddff !important
+}
+
+a.btnlink:after {
+    content: "";
+    position: relative;
+    left: 5%;
+    width: 20px;
+    height: 20px;
+    background: url(content/uploads/2021/09/Vector.svg);
+    top: 7px;
+    display: inline-block;
+    background-repeat: no-repeat
+}
+
+.box {
+    flex-basis: 31% !important;
+    box-shadow: 2px 4px 34px; //rgb(15 24 44 / 5%)
+    border-radius: 4px;
+    background: #FFF;
+    margin: 10px
+}
+
+.box img,
+.step img {
+    margin-bottom: 20px !important;
+    margin: 0 auto
+}
+
+.time-line .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #ffe2d185;
+    top: 40px;
+    height: 65%;
+    bottom: 0;
+    left: 2.3%;
+    margin-left: -3px
+}
+
+.time-line .container1 {
+    position: relative;
+    background-color: inherit;
+    width: 100%
+}
+
+.time-line .container1::after {
+    content: url(content/uploads/2021/09/check-border.png);
+    position: absolute;
+    z-index: 1;
+    top: 20px
+}
+
+.time-line .right {
+    margin-bottom: 25px;
+    left: 0%
+}
+
+.time-line .right::after {
+    left: -16px
+}
+
+.time-line .content1 {
+    padding: 10px 10px 10px 50px
+}
+
+.step1 {
+    position: absolute;
+    right: 20%;
+    top: 50%
+}
+
+.button {
+    margin-top: 35px !important;
+    margin: 0 auto;
+    text-align: center
+}
+
+h2.text-slide,
+.hero .heading-title>h2 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+    text-transform: none;
+    margin-bottom: 20px
+}
+
+.hero .grid-12.text-center {
+    display: inline-block !important
+}
+
+h2.hiring {
+    margin: 20px 0;
+    line-height: 45px
+}
+
+h6.gray-text {
+    font-weight: 400;
+    color: #8e8d8d;
+    letter-spacing: 1px
+}
+
+span.date {
+    color: #000;
+    font-size: 22px
+}
+
+a.btn-slider {
+    border: 1px solid;
+    border-radius: 5px
+}
+
+.color-gray {
+    color: #051C3F;
+    letter-spacing: 1px;
+    font-weight: 600
+}
+
+.content1 p {
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+    letter-spacing: 1px
+}
+
+.lineheight {
+    padding-top: 10px;
+    color: #051C3F
+}
+
+.pd20 {
+    padding-top: 20px !important
+}
+
+section#cha {
+    max-width: 1230px;
+    margin: 0 auto
+}
+
+section#cha h2,
+section#cha p {
+    color: #fff
+}
+
+section#cha a.btn-slider {
+    text-align: center;
+    background: #fff;
+    color: #000;
+    margin: 0 auto;
+    display: table;
+    border: 1px solid #fff
+}
+
+section#cha a.btn-slider:hover {
+    background: var(--main-color);
+    color: #fff
+}
+
+@media screen and (max-width:767px) {
+    .hero {
+        margin-bottom: 50px
+    }
+    .hero .heading-title>h2 {
+        font-size: 24px;
+        line-height: 40px !important
+    }
+    .hero .item-content {
+        background: #00000082;
+        padding: 30px 0
+    }
+    .hero h2.text-slide,
+    .hero span.date {
+        color: #fff
+    }
+    .hero .grid-12.text-center,
+    .hero .grid-container {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .h2title {
+        line-height: 40px;
+        font-size: 26px !important
+    }
+    .time-line .content1 {
+        padding: 5px
+    }
+    .time-line .timeline::after {
+        left: 30px;
+        height: 77%
+    }
+    .time-line .container1 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px
+    }
+    .time-line .container1::before {
+        left: 60px;
+        border: medium solid #fff;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #fff transparent transparent
+    }
+    .time-line .right::after {
+        left: 0
+    }
+    .time-line .right {
+        left: 0%
+    }
+    .submit-step {
+        margin-bottom: 40px
+    }
+}
+
+@media screen and (min-width:769px) {
+    .mobile {
+        display: none
+    }
+}
+
+@media screen and (max-width:769px) {
+    .desktop {
+        display: none
+    }
+    .box {
+        padding: 50px;
+        flex-basis: 100% !important
+    }
+    section#cha h2,
+    section#cha p {
+        text-align: center
+    }
+}
+
+section#gmff3c351 .gallery-carousel-item img {
+    height: 265px;
+    object-fit: cover
+}

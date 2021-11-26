@@ -1,0 +1,88 @@
+footer {
+    padding: 40px 0 40px
+}
+
+footer .widget-content {
+    vertical-align: middle;
+    margin-top: 10px
+}
+
+footer .widget_media_image {
+    margin-bottom: 35px
+}
+
+footer .widget_media_image img {
+    width: 196px;
+    height: inherit;
+    vertical-align: middle
+}
+
+footer .social a {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s
+}
+
+footer .social a:hover {
+    background-color: var(--main-color)
+}
+
+footer .social a:hover svg path {
+    fill: #fff
+}
+
+footer .footer-content li {
+    min-height: 60px;
+    list-style: none;
+    margin-bottom: 15px
+}
+
+footer .footer-content li:hover {
+    color: var(--main-color)
+}
+
+footer .footer-content li img,
+footer .footer-content li svg {
+    display: flex;
+    float: left;
+    margin-top: 6px;
+    margin-right: 15px
+}
+
+footer .footer-content li p {
+    overflow: hidden;
+    margin: 0
+}
+
+footer ul.menu {
+    display: flex;
+    flex-flow: wrap
+}
+
+footer ul.menu li {
+    display: flex;
+    max-width: 50%;
+    margin-bottom: 15px;
+    flex: 0 0 50%
+}
+
+footer ul.menu .developer-copyrights {
+    color: #a5a5a5;
+    letter-spacing: .3px
+}
+
+footer ul.menu .developer-copyrights a {
+    color: var(--main-color)
+}

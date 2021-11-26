@@ -1,0 +1,84 @@
+#site-header {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s
+}
+
+#site-header.sticky {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 9px 1px rgba(0, 0, 0, .12);
+    animation: header_sticky 0.8s;
+    top: 0
+}
+
+.header-inner {
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.overlay-header #site-header {
+    background: transparent;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2
+}
+
+.overlay-header .header-inner {
+    color: #fff
+}
+
+.overlay-header .site-description,
+.overlay-header .toggle {
+    color: inherit
+}
+
+.overlay-header .header-inner .toggle-wrapper::before {
+    background-color: currentColor;
+    opacity: .25
+}
+
+.admin-bar.overlay-header #site-header {
+    top: 32px
+}
+
+@media (max-width:782px) {
+    .admin-bar.overlay-header #site-header {
+        top: 0
+    }
+}
+
+.header-navigation-wrapper {
+    display: none
+}
+
+.header-toggles {
+    display: none
+}
+
+.header-inner .toggle {
+    align-items: center;
+    display: flex;
+    overflow: visible
+}
+
+.header-inner .toggle svg {
+    display: block;
+    position: relative;
+    z-index: 1
+}
+
+.overlay-header .toggle-text {
+    color: inherit
+}
+
+.header-inner .toggle:focus .toggle-text,
+.header-inner .toggle:hover .toggle-text {
+    text-decoration: underline
+}
