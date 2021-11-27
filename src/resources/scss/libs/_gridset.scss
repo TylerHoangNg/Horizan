@@ -2137,8 +2137,8 @@
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url(../../../plugins/wp-user-avatar/assets/css/material-icons/MaterialIcons-Regular.eot);
-    src: local('Material Icons'), local('MaterialIcons-Regular'), url(../../../plugins/wp-user-avatar/assets/css/material-icons/MaterialIcons-Regular.woff2) format('woff2'), url(../../../plugins/wp-user-avatar/assets/css/material-icons/MaterialIcons-Regular.woff) format('woff'), url(../../../plugins/wp-user-avatar/assets/css/material-icons/MaterialIcons-Regular.ttf) format('truetype')
+    src: url(/assets/plugins/wp-user-avatar/css/material-icons/MaterialIcons-Regular.eot);
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(/assets/plugins/wp-user-avatar/css/material-icons/MaterialIcons-Regular.woff2) format('woff2'), url(/assets/plugins/wp-user-avatar/css/material-icons/MaterialIcons-Regular.woff) format('woff'), url(/assets/plugins/wp-user-avatar/css/material-icons/MaterialIcons-Regular.ttf) format('truetype')
 }
 
 #profilepress-myaccount-wrapper .ppmyac-icons,
@@ -2350,7 +2350,7 @@
 }
 
 .pp-form-wrapper select {
-    background-image: url(../../../plugins/wp-user-avatar/assets/images/frontend/arrow-down.png)!important;
+    background-image: url(/assets/plugins/wp-user-avatar/images/frontend/arrow-down.png)!important;
     background-position: right 20px center!important;
     background-repeat: no-repeat!important;
     background-size: 10px auto!important;
@@ -2494,7 +2494,7 @@ a.pp-button-social-login span.ppsc-text {
 }
 
 a.pp-button-social-login .ppsc-google {
-    background-image: url(../../../plugins/wp-user-avatar/assets/images/social-login/google.svg)
+    background-image: url(/assets/plugins/wp-user-avatar/images/social-login/google.svg)
 }
 
 a.pp-button-social-login.pp-button-social-login-google {
@@ -2528,23 +2528,23 @@ a.pp-button-social-login.pp-button-social-login-github {
 }
 
 a.pp-button-social-login .ppsc-vk {
-    background-image: url(../../../plugins/wp-user-avatar/assets/images/social-login/vk-fa.svg)
+    background-image: url(/assets/plugins/wp-user-avatar/images/social-login/vk-fa.svg)
 }
 
 a.pp-button-social-login .ppsc-facebook {
-    background-image: url(../../../plugins/wp-user-avatar/assets/images/social-login/facebook.svg)
+    background-image: url(/assets/plugins/wp-user-avatar/images/social-login/facebook.svg)
 }
 
 a.pp-button-social-login .ppsc-twitter {
-    background-image: url(../../../plugins/wp-user-avatar/assets/images/social-login/twitter.svg)
+    background-image: url(/assets/plugins/wp-user-avatar/images/social-login/twitter.svg)
 }
 
 a.pp-button-social-login .ppsc-linkedin {
-    background-image: url(../../../plugins/wp-user-avatar/assets/images/social-login/linkedin.svg)
+    background-image: url(/assets/plugins/wp-user-avatar/images/social-login/linkedin.svg)
 }
 
 a.pp-button-social-login .ppsc-github {
-    background-image: url(../../../plugins/wp-user-avatar/assets/images/social-login/github-fa.svg)
+    background-image: url(/assets/plugins/wp-user-avatar/images/social-login/github-fa.svg)
 }
 
 #profilepress-myaccount-wrapper,
@@ -6057,7 +6057,7 @@ span.flatpickr-weekday {
 
 @font-face {
     font-family: "enouvo";
-    src: url(../../../themes/enouvo/assets/fonts/SVN-Poppins-Light.otf);
+    src: url(/assets/fonts/SVN-Poppins-Light.otf);
     font-weight: 300;
     font-style: normal;
     font-display: swap
@@ -6065,7 +6065,7 @@ span.flatpickr-weekday {
 
 @font-face {
     font-family: "enouvo";
-    src: url(../../../themes/enouvo/assets/fonts/SVN-Poppins-Regular.otf);
+    src: url(/assets/fonts/SVN-Poppins-Regular.otf);
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -6073,7 +6073,7 @@ span.flatpickr-weekday {
 
 @font-face {
     font-family: "enouvo";
-    src: url(../../../themes/enouvo/assets/fonts/SVN-Poppins-Medium.otf);
+    src: url(/assets/fonts/SVN-Poppins-Medium.otf);
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -6081,7 +6081,7 @@ span.flatpickr-weekday {
 
 @font-face {
     font-family: "enouvo";
-    src: url(../../../themes/enouvo/assets/fonts/SVN-Poppins-SemiBold.otf);
+    src: url(/assets/fonts/SVN-Poppins-SemiBold.otf);
     font-weight: 600;
     font-style: normal;
     font-display: swap
@@ -6089,7 +6089,7 @@ span.flatpickr-weekday {
 
 @font-face {
     font-family: "enouvo";
-    src: url(../../../themes/enouvo/assets/fonts/SVN-Poppins-Bold.otf);
+    src: url(/assets/fonts/SVN-Poppins-Bold.otf);
     font-weight: 700;
     font-style: normal;
     font-display: swap
@@ -6097,7 +6097,7 @@ span.flatpickr-weekday {
 
 @font-face {
     font-family: "enouvo";
-    src: url(../../../themes/enouvo/assets/fonts/SVN-Poppins-ExtraBold.otf);
+    src: url(/assets/fonts/SVN-Poppins-ExtraBold.otf);
     font-weight: 800;
     font-style: normal;
     font-display: swap
@@ -9682,7 +9682,7 @@ i {
 
 .tag-list a:before {
     content: "";
-    background-image: url(../../../themes/enouvo/assets/images/tags.png);
+    background-image: url(/assets/images/tags.png);
     position: absolute;
     width: 16px;
     height: 16px;
@@ -10408,27 +10408,27 @@ textarea {
 }
 
 .question-row-1 span.wpcf7-list-item:nth-child(1):before {
-    background-image: url(../../../themes/enouvo/assets/images/ic-mobile.svg)
+    background-image: url(/assets/images/ic-mobile.svg)
 }
 
 .question-row-1 span.wpcf7-list-item:nth-child(2):before {
-    background-image: url(../../../themes/enouvo/assets/images/ic-desktop.svg)
+    background-image: url(/assets/images/ic-desktop.svg)
 }
 
 .question-row-1 span.wpcf7-list-item:nth-child(3):before {
-    background-image: url(../../../themes/enouvo/assets/images/ic-other.svg)
+    background-image: url(/assets/images/ic-other.svg)
 }
 
 .question-row-2 span.wpcf7-list-item:nth-child(1):before {
-    background-image: url(../../../themes/enouvo/assets/images/ic-design.svg)
+    background-image: url(/assets/images/ic-design.svg)
 }
 
 .question-row-2 span.wpcf7-list-item:nth-child(2):before {
-    background-image: url(../../../themes/enouvo/assets/images/ic-web-dev.svg)
+    background-image: url(/assets/images/ic-web-dev.svg)
 }
 
 .question-row-2 span.wpcf7-list-item:nth-child(3):before {
-    background-image: url(../../../themes/enouvo/assets/images/ic-ai.svg)
+    background-image: url(/assets/images/ic-ai.svg)
 }
 
 .question-row-2 span.wpcf7-list-item.last .wpcf7-list-item-label {
@@ -10713,7 +10713,7 @@ textarea {
 
 .ant-row:before {
     content: "";
-    background-image: url(../../../themes/enouvo/assets/images/icCheck24Px-min.png);
+    background-image: url(/assets/images/icCheck24Px-min.png);
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -10822,7 +10822,7 @@ textarea {
 .wp-block-image.wp-button-img figure:after {
     content: "";
     position: absolute;
-    background-image: url(/wp-content/uploads/2020/09/arrow-right-copy-3.svg);
+    background-image: url(/assets/uploads/2020/09/arrow-right-copy-3.svg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -11100,7 +11100,7 @@ textarea {
         font-size: 22px
     }
     .block-contact {
-        background-image: url(/wp-content/uploads/2020/09/Footer.svg)!important
+        background-image: url(/assets/uploads/2020/09/Footer.svg)!important
     }
     .block-contact.custom-background {
         padding-bottom: 50px;

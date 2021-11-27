@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="public/img/Logo.ico" />
+    <link rel="icon" href="/images/Logo.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" id="font-awesome-5-all-css" href="/assets/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.3.6" media="all">
+    <link rel="stylesheet" id="font-awesome-5-all-css" href="/assets/library/font-awesome/css/all.min.css" media="all">
     <title>Horizan | The S Company In Danang</title>
     <link rel="stylesheet" href="/css/app.css" data-minify="1">
+    <link rel="stylesheet" href="/css/views/core.css" id='gutentor-dynamic-css'>
+    <link rel="stylesheet" href="/css/views/custom.css" id="wp-custom-css">
     <style>
         img.wp-smiley,
         img.emoji {
@@ -22,37 +24,14 @@
             padding: 0 !important
         }
     </style>
-    <script id='wp-sentry-browser-js-extra'>
-        var wp_sentry = {
-            "dsn": "https:\/\/4e9ab78557a7432e80dfae710553023a@sentry.horizan.com\/37",
-            "tracesSampleRate": "0",
-            "release": "1.0",
-            "environment": "production",
-            "content": {
-                "tags": {
-                    "wordpress": "5.7",
-                    "language": "en-US"
-                }
-            }
-        };
-    </script>
-    <link rel="stylesheet" href="/css/views/core.css" id='gutentor-dynamic-css'>
-    <link rel="stylesheet" href="/css/views/custom.css" id="wp-custom-css">
-    <noscript>
-         <style id="rocket-lazyload-nojs-css">
-            .rll-youtube-player,
-            [data-lazy-src] {
-            display: none !important
-            }
-         </style>
-    </noscript>
+    <script src='/assets/includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
 </head>
 <body class="home page-template-default page page-id-5 wp-embed-responsive gutentor-active">
     <dir class="app">
         <header id="site-header" class="header-footer-group" role="banner">
-            {{> header}}
+            {{>header}}
         </header>
-        {{> headermini}}
+        {{>headermini}}
         <main id="site-content" role="main">
             {{{body}}}
         </main>
@@ -77,9 +56,9 @@
          </span>
     </a>
     
-    <script data-cfasync="false" src="/includes/js/email-decode.min.js"></script>
+    <script data-cfasync="false" src="/assets/includes/js/email-decode.min.js"></script>
     <script src='/assets/js/jquery.counterup.min.js?ver=1.9.3' id='countUp-js' defer></script>
-    <script src='/assets/plugins/gutentor//assets/library/waypoints/jquery.waypoints.min.js?ver=4.0.1' id='waypoints-js' defer></script>
+    <script src='/assets/library/waypoints/jquery.waypoints.min.js?ver=4.0.1' id='waypoints-js' defer></script>
     <script id='ppress-frontend-script-js-extra'>
         var pp_ajax_form = {
             "ajaxurl": "https:\/\/horizan.com\/wp-admin\/admin-ajax.php",
@@ -90,7 +69,7 @@
             "disable_ajax_form": "false"
         };
     </script>
-    <script src='/assets/plugins/wp-user-avatar/assets/js/frontend.min.js?ver=3.1.18' id='ppress-frontend-script-js' defer></script>
+    <script src='/assets/plugins/wp-user-avatar/js/frontend.min.js?ver=3.1.18' id='ppress-frontend-script-js' defer></script>
     <script src='/assets/js/isotope.min.js?ver=5.7' id='isotope-js' defer></script>
     <script src='/assets/js/slick.min.js?ver=5.7' id='enouvo-slick-js' defer></script>
     <script id='index-js-extra'>
@@ -99,7 +78,7 @@
         };
     </script>
     <script data-minify="1" src='/assets/js/index.js' id='index-js' defer></script>
-    <script src='/assets/plugins/gutentor//assets/library/magnific-popup/jquery.magnific-popup.min.js?ver=1.1.0' id='magnific-popup-js' defer></script>
+    <script src='/assets/library/magnific-popup/jquery.magnific-popup.min.js?ver=1.1.0' id='magnific-popup-js' defer></script>
     <script>
         window.lazyLoadOptions = {
             elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
@@ -165,7 +144,7 @@
             }
         }, !1)
     </script>
-    <script data-no-minify="1" async src="/assets/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
+    <script data-no-minify="1" async src="/assets/plugins/wp-rocket/lazyload/16.1/lazyload.min.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
