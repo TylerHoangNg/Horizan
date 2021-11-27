@@ -23,8 +23,4 @@ route(app);
 
 app.listen(port, () => {
     console.log(`App listening at http://localhost:${port}`)
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> ef1729b12dd081993c78dbe145b4a85f38a78963
