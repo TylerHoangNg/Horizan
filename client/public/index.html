@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>h-app</title>
+
+    <link rel="icon" type="image/png" href="/images/Logo.ico" />
+    <script defer src="/build/bundle.js"></script>
+    <link rel='stylesheet' href='/build/bundle.css'>
+    <!-- PhaserJS script tag -->
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.54.0/dist/phaser.min.js"></script>
+    <script type="module">
+      import devtools from '/node_modules/devtools-detect/index.js';
+    
+      // Check if it's open
+      console.log('Is DevTools open:', devtools.isOpen);
+    
+      // Check it's orientation, `undefined` if not open
+      console.log('DevTools orientation:', devtools.orientation);
+    
+      // Get notified when it's opened/closed or orientation changes
+      window.addEventListener('devtoolschange', event => {
+        console.log('Is DevTools open:', event.detail.isOpen);
+        console.log('DevTools orientation:', event.detail.orientation);
+      });
+    </script>
+  </head>
+
+  <body>
+<!-- Scripts -->
+<script src="./assets/chain-1.0.0/vendor/jquery/jquery.min.js"></script>
+<script src="./assets/chain-1.0.0/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/chain-1.0.0/assets/js/owl-carousel.js"></script>
+<script src="./assets/chain-1.0.0/assets/js/animation.js"></script>
+<script src="./assets/chain-1.0.0/assets/js/imagesloaded.js"></script>
+<script src="./assets/chain-1.0.0/assets/js/popup.js"></script>
+<script src="./assets/chain-1.0.0/assets/js/custom.js"></script>
+  </body>
+</html>

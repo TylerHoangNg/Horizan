@@ -1,0 +1,356 @@
+{
+	"textures": [
+		{
+			"image": "FirstFemail0.1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 418,
+				"h": 43
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "FirstFemail 0-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 27,
+						"h": 41
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 27,
+						"h": 41
+					}
+				},
+				{
+					"filename": "FirstFemail 0-10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 25,
+						"h": 41
+					},
+					"frame": {
+						"x": 30,
+						"y": 1,
+						"w": 25,
+						"h": 41
+					}
+				},
+				{
+					"filename": "FirstFemail 0-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 25,
+						"h": 41
+					},
+					"frame": {
+						"x": 57,
+						"y": 1,
+						"w": 25,
+						"h": 41
+					}
+				},
+				{
+					"filename": "FirstFemail 0-6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 25,
+						"h": 41
+					},
+					"frame": {
+						"x": 84,
+						"y": 1,
+						"w": 25,
+						"h": 41
+					}
+				},
+				{
+					"filename": "FirstFemail 0-8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 25,
+						"h": 41
+					},
+					"frame": {
+						"x": 111,
+						"y": 1,
+						"w": 25,
+						"h": 41
+					}
+				},
+				{
+					"filename": "FirstFemail 0-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 23,
+						"h": 41
+					},
+					"frame": {
+						"x": 138,
+						"y": 1,
+						"w": 23,
+						"h": 41
+					}
+				},
+				{
+					"filename": "FirstFemail 0-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 1,
+						"w": 23,
+						"h": 41
+					},
+					"frame": {
+						"x": 163,
+						"y": 1,
+						"w": 23,
+						"h": 41
+					}
+				},
+				{
+					"filename": "FirstFemail 0-9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 27,
+						"h": 40
+					},
+					"frame": {
+						"x": 188,
+						"y": 1,
+						"w": 27,
+						"h": 40
+					}
+				},
+				{
+					"filename": "FirstFemail 0-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 2,
+						"w": 23,
+						"h": 40
+					},
+					"frame": {
+						"x": 217,
+						"y": 1,
+						"w": 23,
+						"h": 40
+					}
+				},
+				{
+					"filename": "FirstFemail 0-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 2,
+						"w": 23,
+						"h": 40
+					},
+					"frame": {
+						"x": 242,
+						"y": 1,
+						"w": 23,
+						"h": 40
+					}
+				},
+				{
+					"filename": "FirstFemail 0-11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 4,
+						"w": 25,
+						"h": 39
+					},
+					"frame": {
+						"x": 267,
+						"y": 1,
+						"w": 25,
+						"h": 39
+					}
+				},
+				{
+					"filename": "FirstFemail 0-7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 25,
+						"h": 39
+					},
+					"frame": {
+						"x": 294,
+						"y": 1,
+						"w": 25,
+						"h": 39
+					}
+				},
+				{
+					"filename": "FirstFemail 0-12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 23,
+						"h": 39
+					},
+					"frame": {
+						"x": 321,
+						"y": 1,
+						"w": 23,
+						"h": 39
+					}
+				},
+				{
+					"filename": "FirstFemail 0-14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 3,
+						"w": 23,
+						"h": 39
+					},
+					"frame": {
+						"x": 346,
+						"y": 1,
+						"w": 23,
+						"h": 39
+					}
+				},
+				{
+					"filename": "FirstFemail 0-13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 22,
+						"h": 38
+					},
+					"frame": {
+						"x": 371,
+						"y": 1,
+						"w": 22,
+						"h": 38
+					}
+				},
+				{
+					"filename": "FirstFemail 0-15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 22,
+						"h": 38
+					},
+					"frame": {
+						"x": 395,
+						"y": 1,
+						"w": 22,
+						"h": 38
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:27547783f19a02629b69924849ae8894:6c6e716e250dff1ccf903356b1e95daf:41a0abdaeafdee5f0ac2dd72fc5c26f5$"
+	}
+}

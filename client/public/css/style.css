@@ -1,0 +1,48 @@
+.logo-horizan {
+  display: block;
+  height: auto;
+  width: 13%;
+}
+.row {
+  justify-content: space-evenly;
+}
+.image video {
+  border-radius: 50%;
+  width: 100% !important;
+  height: inherit !important;
+}
+
+.image.alignright:after {
+  left: auto;
+  right: 0;
+}
+
+figure {
+  display: block;
+  margin: 0;
+}
+
+.image figure {
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.image:after {
+  left: 0;
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  opacity: 0.78;
+  background-color: #007bff;
+  border-radius: 50px;
+  bottom: 60px;
+  animation: 0.5s cubic-bezier(0.245, 0.325, 0.51, 1.305) 0s infinite alternate
+    none running heartbeat;
+  z-index: 1;
+}
+:root {
+  --main-color: #007bff;
+  --color1: #474b68;
+}

@@ -1,31 +1,38 @@
 {
-    "name": "horizan_project",
+    "name": "h-app",
     "version": "1.0.0",
-    "description": "learningNodeJs",
-    "main": "src/index.js",
+    "description": "",
+    "main": "server.js",
     "scripts": {
-        "start": "nodemon --inspect ./src/index.js",
-        "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+        "start": "node server.js",
+        "build": "npm install --prefix client && npm run build --prefix client",
+        "client": "npm run dev --prefix client",
+        "server": "nodemon server.js --ignore 'client/'",
+        "dev": "concurrently \"npm run server\" \"npm run client\" ",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/NgHuHoang/nodejs_blog_start.git"
+        "url": "git+https://github.com/TylerHoangNg/h-app.git"
     },
-    "keywords": [
-        "stnodejs"
-    ],
-    "author": "main",
+    "keywords": [],
+    "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/NgHuHoang/nodejs_blog_start/issues"
+        "url": "https://github.com/TylerHoangNg/h-app/issues"
     },
-    "homepage": "https://github.com/NgHuHoang/nodejs_blog_start#readme",
+    "homepage": "https://github.com/TylerHoangNg/h-app#readme",
     "dependencies": {
+        "body-parser": "^1.19.0",
+        "concurrently": "^6.4.0",
+        "connect-mongo": "^3.2.0",
+        "cors": "^2.8.5",
         "express": "^4.17.1",
-        "express-handlebars": "^5.3.3",
+        "express-session": "^1.17.2",
+        "mongoose": "^6.0.13",
         "morgan": "^1.10.0",
-        "node-sass": "^6.0.1",
-        "nodemon": "^2.0.15"
+        "nodemon": "^2.0.15",
+        "passport": "^0.5.0",
+        "passport-local-mongoose": "^6.1.0"
     }
 }

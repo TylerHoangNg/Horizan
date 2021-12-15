@@ -1,45 +1,84 @@
-# Horizan
- Website designed by Horizan Team
+# h-app
+## Test Code JScript and Svelte
 
+## Core Structure
 
-<p align="center">
-  <a href="" rel="noopener">
- <img width=632px height=313px src="https://github.com/TylerHoangNg/Horizan/blob/main/src/public/images/HorizanL-nobg.svg" alt="Project logo"></a>
-</p>
+    h-app
+      ├── client
+      │   ├── public
+      │   ├── src
+      │   │    ├── components
+      │   │    │       ├── client
+      │   │    │       ├── server
+      │   │    │       ├── configs
+      │   │    │       ├── library
+      │   │    │       └── pages
+      │   │    ├── models
+      │   │    └── pages
+      │   │
+      │   └── proxy
+      │       > webpack.configs
+      │       > PORT 8080
+      │
+      ├── models
+      │   > MongoDB Server
+      │   > PORT 27017
+      │
+      ├── router
+      │   > API
+      │   > Auth
+      │   > PORT 3000
+      │
+      └── README.md (you are here)
 
-<h3 align="center">Horizan S-Company</h3>
-
-
----
-
-# Code run Website
----
-## 🏁 Getting Started <a name = "getting_started">Terminal</a>
-### Create Project
+### --- Library ---
+- Express
+- Mongoose (MongoDB)
+- Cors
+- Body-Parser
+- Morgan
+``` npm install express mongoose cors body-parser morgan --save ```
+- Concurrently
+``` npm install -g concurrently ```
+- Nodemon (dev)
+``` npm install nodemon --save-dev ```
+- Svelte
+- webpack
+``` npx degit sveltejs/template-webpack client ```
+-- Install library basic from client
+``` npm install ```
+- MongoDB (Create value)
 ```
-npm init
-```
-### install library basic
-```
-npm install express
-npm install -g nodemon (globally)
-npm install --save-dev nodemon(dev) or npm install nodemon --save-dev
-npm install express-handlebars
-npm install node-sass --save-dev
-```
-##### Edit package.json
-```
-"script":{
-	"start":"nodemon --inspect ./index.js",
-}
-```
-### API morgan
-```
-npm install morgan --save-dev
-var morgan = require('morgan')
+- export MONGO_URI='linkdatabase' 
+- mongodb+srv://admin:<password>@cluster0.veij3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+- password: MitFnz5TdB8qTffe 
+- mongoURI: process.env.MONGO_URI 
 ```
 
-### Run code
-``` npm start ```
-### Run nodemon
-``` npm run watch ```
+- Axios from client
+``` npm i axios ```
+### --- JScript ---
+- Link api from server to client
+```
+    devServer: {
+            proxy: {
+                '/api': {
+                    target: 'http://localhost:3000',
+                },
+            },
+        },
+```
+
+### Local login
+``` npm install passport-local-mongoose ```
+``` npm install passport ```
+
+-  Express session
+``` npm install express-session ```
+-  Save session from mongo
+``` npm install connect-mongo ```
+``` npm i connect-mongo@3 ```
+
+### API Router
+- Svelte Spa Router
+``` npm install svelte-spa-router ```
