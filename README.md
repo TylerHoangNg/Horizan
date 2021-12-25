@@ -1,6 +1,6 @@
 ## Horizan App
 <p align="center">
-<a href="https://imba.io" target="_blank">
+<a href="https://horizan-app.vercel.app/" target="_blank">
 <img width="300" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a>
 </p>
 
