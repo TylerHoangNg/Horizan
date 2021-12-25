@@ -1,4 +1,3 @@
-## Horizan App
 <p align="center">
 <a href="https://horizan-app.vercel.app/" target="_blank">
 <img width="400" src="https://github.com/TylerHoangNg/Horizan/blob/main/client/public/images/Horizan-animation.svg"></a>
